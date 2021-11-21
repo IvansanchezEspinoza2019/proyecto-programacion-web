@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    border:0
+}
+
+body{
+    background-color: rgba(240, 255, 249, 0.719);
+}
+
+.user-name{
+    font-size: 48px;
+    font-weight: bold;
+}
+header{
+    background-color: rgb(250, 77, 77);
+    width: 100%;
+    padding: 25px;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+.sensor-value{
+
+    width: 25%;
+    margin-top:20px; 
+    color: #000; 
+    font-size: 18px; 
+    padding: 15px; 
+    border-radius: 10px; 
+    background:#b4f9c3;
+}
+
+.treshold{
+
+    margin-top:20px; 
+    width: 25%;
+    padding:10px;
+    color: #000; 
+    font-size: 18px; 
+    padding: 15px; 
+    border-radius: 10px; 
+    background:#f5b668; 
+}
+
+.treshold input{
+    width: 70px;
+    height: 25px;
+    margin-bottom: 5px;
+    border-radius: 2px;
+}
+
+.alarm-status{
+
+    width: 30%;
+    margin-top:20px; 
+    color: #000; 
+    
+    font-size: 18px; 
+    padding: 15px; 
+    border-radius: 10px; 
+    background:#e6afaf
+}
+
+section {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.sensorTitle{
+    font-weight: bold;
+    font-size:  25px;
+}
+
+#change_but{
+    margin-top: 15px;
+    width: 70px;
+    border-radius: 2px;
+}
+
+.historial{
+    margin-top: 160px;
+    padding: 10px;
+    background-color: #fe88c9;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border-radius: 15px;
+}
