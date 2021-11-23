@@ -7,7 +7,7 @@
     <title>History</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body style="border: 0px">
 <div class="row content">	
    <header>
         HISTORIAL
