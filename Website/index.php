@@ -111,7 +111,7 @@ $sec = "15";
 				echo "</div>";
                 echo "</section>";
 
-                echo "<a class='historial' href='#'>Ver Historial</a>";
+                echo "<div class='adust'><a class='historial' href='./history.php'>Ver Historial</a></div>";
 
 			}
 			?>
