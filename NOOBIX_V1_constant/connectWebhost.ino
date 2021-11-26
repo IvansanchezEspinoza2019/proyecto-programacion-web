@@ -2,7 +2,7 @@ void connect_webhost()
 {
   //we have changing variable here, so we need to first build up our URL packet  
   /////////////////////////////////////////////////////////////////////////////
-  url = "/id17924027_iotdb/RX.php?id=";
+  url = "/RX.php?id=";
   url += unit_id;
   url += "&pw=";
   url +=  id_password;//sensor value
