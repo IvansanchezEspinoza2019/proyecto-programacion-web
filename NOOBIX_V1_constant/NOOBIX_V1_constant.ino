@@ -15,7 +15,7 @@
 const char SSID_ESP[] = "wifi";   //Your WiFI name
 const char SSID_KEY[] = "HolamundoP7";       //WiFi passowrd
 const char* host = "alarm-iot.000webhostapp.com";    //Your domain without the "www"
-String ESP8266_CONNECT = "AT+CIPSTART=0,\"TCP\",\"https://alarm-iot.000webhostapp.com\",80\r\n"; //Your domain with the "www" this time
+String ESP8266_CONNECT = "AT+CIPSTART=0,\"TCP\",\"www.alarm-iot.000webhostapp.com\",80\r\n"; //Your domain with the "www" this time
 String unit_id = "1";                     //The id you've placed on the table you've created on the database
 String id_password = "12345";             //The password for that id
 String url = "";
